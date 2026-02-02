@@ -6,13 +6,13 @@ license = "MIT"
 edition = "2021"
 
 [dependencies]
-ratatui = "0.29.0"                                  #pour le tui
+ratatui = "0.30.0"                                  #pour le tui
 rand = "0.9.2"                                      #pour le choix random du mot
 unicode-segmentation = "1.12.0"                     #pour la comparaison entre charactères qui semblent humains avec les accent
-tui-big-text = "0.7.3"
-clap = { version = "4.5.53", features = ["cargo"] }
-cliclack = "0.3.7"
-colored = "3.0.0"
+tui-big-text = "0.8.1"
+clap = { version = "4.5.56", features = ["cargo"] }
+cliclack = "0.3.8"
+colored = "3.1.1"
 
 [dev-dependencies]
-assert_cmd = "2.1.1"
+assert_cmd = "2.1.2"
