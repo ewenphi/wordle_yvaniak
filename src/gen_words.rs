@@ -1,4 +1,4 @@
-use rand::Rng;
+use rand::RngExt;
 
 fn get_the_words() -> Vec<String> {
     ["thé", "café", "faculté", "lycée", "ordinateur", "téléphone"]
