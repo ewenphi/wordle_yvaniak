@@ -16,3 +16,7 @@ colored = "3.1.1"
 
 [dev-dependencies]
 assert_cmd = "2.1.2"
+
+[[bin]]
+name = "wordle"
+path = "src/main.rs"
