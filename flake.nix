@@ -34,12 +34,21 @@
         {
           config,
           pkgs,
+          self',
           ...
         }:
         {
           packages = import ./nix/packages.nix {
             inherit pkgs;
             inherit (inputs) crane;
+          };
+
+          apps = {
+            default = {
+              type = "app";
+              program = "${self'.packages.default}/bin/wordle";
+              meta.description = "A simple wordle app that I made for learning rust";
+            };
           };
 
           devenv.shells.default = {
