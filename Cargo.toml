@@ -7,15 +7,15 @@ edition = "2021"
 
 [dependencies]
 ratatui = "0.30.0"                                 #pour le tui
-rand = "0.10.0"                                    #pour le choix random du mot
+rand = "0.10.1"                                    #pour le choix random du mot
 unicode-segmentation = "1.13.2"                    #pour la comparaison entre charactères qui semblent humains avec les accent
 tui-big-text = "0.8.4"
-clap = { version = "4.6.0", features = ["cargo"] }
-cliclack = "0.5.3"
+clap = { version = "4.6.1", features = ["cargo"] }
+cliclack = "0.5.4"
 colored = "3.1.1"
 
 [dev-dependencies]
-assert_cmd = "2.2.0"
+assert_cmd = "2.2.2"
 
 [[bin]]
 name = "wordle"
