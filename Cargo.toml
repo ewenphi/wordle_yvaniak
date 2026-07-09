@@ -9,7 +9,7 @@ edition = "2021"
 rand = "0.10.1"                                    #pour le choix random du mot
 unicode-segmentation = "1.13.2"                    #pour la comparaison entre charactères qui semblent humains avec les accent
 clap = { version = "4.6.1", features = ["cargo"] }
-cliclack = "0.5.4" #surement temporaire
+cliclack = "0.5.4"                                 #surement temporaire
 colored = "3.1.1"
 
 [dev-dependencies]
